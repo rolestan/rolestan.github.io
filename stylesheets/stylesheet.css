@@ -53,12 +53,12 @@ div.ps-zoom-pan-rotate *  { display: block; }
 /* Carousel */
 div.ps-carousel-item-loading 
 { 
-	background: url(loader.gif) no-repeat center center; 
+	background: url(https://cloud.githubusercontent.com/assets/19594447/15594934/6ea19c20-23f5-11e6-90b9-b21e017fb816.gif) no-repeat center center; 
 }
 
 div.ps-carousel-item-error 
 { 
-	background: url(error.gif) no-repeat center center; 
+	background: url(https://cloud.githubusercontent.com/assets/19594447/15594933/6e95abe0-23f5-11e6-994f-16a35cfa9b35.gif) no-repeat center center; 
 }
 
 
@@ -126,7 +126,7 @@ div.ps-toolbar div div.ps-toolbar-content
 	width: 44px;
 	height: 44px;
 	margin: 0 auto 0;
-	background-image: url(icons.png);
+	background-image: url(https://cloud.githubusercontent.com/assets/19594447/15594932/6e51d582-23f5-11e6-8e2d-585a409b0092.png);
 	background-repeat: no-repeat;
 }
 
@@ -171,6 +171,6 @@ div.ps-toolbar-play div.ps-toolbar-content
 		-o-background-size: 176px 88px;
 		-webkit-background-size: 176px 88px;
 		background-size: 176px 88px;
-		background-image: url(icons@2x.png);
+		background-image: url(https://cloud.githubusercontent.com/assets/19594447/15594931/6e4f3af2-23f5-11e6-82f8-46bde1ca5d05.png);
 	}
 }
