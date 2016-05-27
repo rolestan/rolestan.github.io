@@ -31,6 +31,9 @@
     <script src="ui/jquery.ui.map.extensions.js" type="text/javascript"></script>
  
 	<style type="text/css">
+		@font-face{font-family:"NanumBarunGothic";src:url(../Fonts/NanumBarunGothic.eot);src:url(../Fonts/NanumBarunGothic.eot?#iefix) format("embedded-opentype"),url(../Fonts/NanumBarunGothic.woff) format("woff");}
+	@font-face{font-family:"NanumBarunGothicBold";src:url(../Fonts/NanumBarunGothicBold.eot);src:url(../Fonts/NanumBarunGothicBold.eot?#iefix) format("embedded-opentype"),url(../Fonts/NanumBarunGothicBold.woff) format("woff");}
+
 		#logo {
 			width:300px;
 			height:150px;
@@ -42,10 +45,16 @@
 			margin-bottom: 5px;
 			margin-left: auto;
 		}   
-	   .title_style {
-			color: #3F3C30;
-			padding-top: 5px;
+	   	   .title_style {
+			color: #573200;
+			padding-top: 12px;
 	   }
+	   
+	   .ui-li-thumb, .ui-li-icon, .ui-li-content {margin:5px 12px;}
+	   .ui-li-heading {font-family: NanumBarunGothic;}
+	   
+	   body {font-family: NanumBarunGothic!important;}
+	   
 	   ul{list-style:none;}
     </style>
 </head>
