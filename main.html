@@ -46,7 +46,7 @@
   <embed src="http://rolestan.github.io/1.PDF" width="500" height="375" type='application/pdf'>
   
   
-<script src="rolestan.github.io/stylesheets/pdfobject.min.js"></script>
+<script src="http://rolestan.github.io/stylesheets/pdfobject.min.js"></script>
 <script>
 var options = {
     pdfOpenParams: {
@@ -58,7 +58,7 @@ var options = {
         page: 2
     },
     forcePDFJS: true,
-    PDFJS_URL: "/resources/pdfjs/web/viewer.html"
+    PDFJS_URL: "http://rolestan.github.io/stylesheets/pdfjs/web/viewer.html"
 };
  
 var myPDF = PDFObject.embed("http://rolestan.github.io/1.PDF", "#pdf", options);
