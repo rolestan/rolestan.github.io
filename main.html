@@ -21,7 +21,7 @@
       .ui-li-thumb, .ui-li-icon, .u
       i-li-content {margin:5px 12px;}
       .ui-li-heading {font-family: NanumBarunGothic;}
-      body {font-family: NanumBarunGothic!important;}
+      body {font-family: NanumBarunGothic!important;height:100%;}
       ul{list-style:none;}
 
 
@@ -38,11 +38,20 @@
       .success { color: #4F8A10; background-color: #DFF2BF; }
       .fail { color: #D8000C; background-color: #FFBABA; }
 
-
+      .main {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+      }
      </style>
 
  </head>
- <body>
-     <iframe src="http://rolestan.github.io/1.PDF" style="width:100%;min-height: 800px;height:100%;"></iframe>
+ <body style="width:100%;height:100%;">
+     <div class="main">
+        <iframe src="http://rolestan.github.io/1.PDF" style="width:100%;height:100%;"></iframe>
+     </div>
+
  </body>
  </html>
